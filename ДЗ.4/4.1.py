@@ -7,4 +7,4 @@ for i in string:
     if len(i) > a:
         a = len(i)
         word = i    
-print("the longest word is: ",word)
+print("The longest word = ",word,"")
