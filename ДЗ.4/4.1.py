@@ -5,9 +5,11 @@ for i in string:
     if (i.isalpha() == True) or (i ==" "):
         a += i
     else:
+        a += " "
         continue
+print(a)
 a = a.split()
-print("",len(a),"= Words")
+print("",len(a)," Words")
 for i_ in a:
     if len(i_) > a1:
         a1 = len(i_)
