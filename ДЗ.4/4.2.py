@@ -37,8 +37,3 @@ elif len(string) > 20:
     print(string[:20])
 print(f"==={s2}===")
 
-
-
-
-
-12

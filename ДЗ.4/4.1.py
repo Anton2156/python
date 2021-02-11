@@ -1,10 +1,17 @@
-
-string=input("enter string: ")
-string = string.split()
-print("",len(string),"= Words")
-a=0
+string = input("Enter string:")
+a = ""
+a1 = 0
 for i in string:
-    if len(i) > a:
-        a = len(i)
-        word = i    
-print("The longest word = ",word,"")
+    if (i.isalpha() == True) or (i ==" "):
+        a += i
+    else:
+        continue
+a = a.split()
+print("",len(a),"= Words")
+for i_ in a:
+    if len(i_) > a1:
+        a1 = len(i_)
+        word = i_
+print("The longest word = ",word,"\nLength = ",a1,"")
+
+
