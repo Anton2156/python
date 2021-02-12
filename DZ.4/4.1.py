@@ -2,7 +2,7 @@ string = input("Enter string:")
 a = ""
 a1 = 0
 for i in string:
-    if (i.isalpha() == True) or (i ==" "):
+    if (i.isalpha() is True) or (i ==" "):
         a += i
     else:
         a += " "
@@ -15,5 +15,3 @@ for i_ in a:
         a1 = len(i_)
         word = i_
 print("The longest word = ",word,"\nLength = ",a1,"")
-
-

@@ -8,7 +8,7 @@ for i in string:
     if i.islower() == True:
         lower += 1
     elif i.isupper() == True:
-        upper += 1        
+        upper += 1
 if lower == upper:
     print(string.swapcase())
 elif lower > upper:

@@ -1,4 +1,4 @@
-while True:    
+while True:  
     try:
         start = input("Enter the start of the numeric series: ")
         if start != "":
@@ -32,8 +32,6 @@ while True:
         break
 
 
-
-    
 
 
 

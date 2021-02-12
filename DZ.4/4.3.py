@@ -1,12 +1,9 @@
 while True:
     phone = input('Enter phone number: ')
-    i = 0
     count_d = ""
     for char in phone:
         if char.isdigit():
             count_d += char
-        else:
-            continue
     if (len(count_d) == 10 and count_d[:1] == "0"):
         print("38"+ count_d)
         break
@@ -20,4 +17,3 @@ while True:
         else:
             print("Bye!")
             break
-        

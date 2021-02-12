@@ -7,7 +7,7 @@ while True:
         num_ = num
         while num > 0:
             a = num % 10
-            if a  == 0:
+            if a == 0:
                 zero += 1
             elif a % 2 == 0:
                 even += 1
