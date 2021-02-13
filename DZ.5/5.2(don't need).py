@@ -25,7 +25,7 @@ def get_sud(a,b):
     answer = input(f'Сколько будет {a} - {b}: ')
     if answer != str(a - b):
         print('Неверно! Попробуйте еще раз.')
-        return get_sub(a,b)
+        return get_sud(a,b)
     return answer
 
 def get_mul(a,b):

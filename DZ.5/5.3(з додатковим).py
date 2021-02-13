@@ -21,8 +21,6 @@ def main():
         main()
     print(f"\nYour pass:{your_pass}")
 
-
-
 def easy_pass(len_pass):
     i = 0
     your_pass = ""
@@ -91,7 +89,6 @@ def length_pass():
             return length_pass()
     else:
         return len_pass
-
 
 if __name__ == '__main__':
     main()
