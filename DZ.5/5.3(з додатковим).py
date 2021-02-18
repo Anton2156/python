@@ -57,6 +57,7 @@ def hard_pass(len_pass):
         else:
             symbol += 1
     if (lower and upper and digit and symbol) == 0 :
+        print(your_pass)
         return hard_pass(len_pass)
     return your_pass
 
@@ -77,7 +78,7 @@ def length_pass():
 
     print("\n")
     len_pass = int(input("Enter the length of the password:"))
-    if len_pass < 8:
+    if len_pass < 4:
         print("The password is strong")
         end = input("You want to continue?(Y/N)")
         if end == "Y":
