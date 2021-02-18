@@ -17,6 +17,8 @@ def main():
         password = gen_password(ascii_letters + digits)
     elif choice == "3":
         password = gen_strong_pw()
+    else:
+        print("Buy")
     print("Pass=",password)
     check_pass(password)
 
