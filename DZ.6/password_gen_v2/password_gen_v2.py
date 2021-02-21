@@ -10,6 +10,7 @@ def main():
         "1. Сгенерировать простой пароль\n"
         "2. Сгенерировать средний пароль\n"
         "3. Сгенерировать сложный пароль\n"
+        "4. Закончть"
     )
     if choice == "1":
         password = gen_password("12")
@@ -18,9 +19,12 @@ def main():
     elif choice == "3":
         password = gen_strong_pw()
     else:
+        password = "End"
         print("Buy")
-    print("Pass=",password)
-    check_pass(password)
+    if password != "End":
+        print("Pass=",password)
+        check_pass(password)
+
 
 def gen_password(chars, length=3):
     password = ""
