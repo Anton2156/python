@@ -29,16 +29,16 @@ def luckyticket(lucky_ticket):
         return False
 
 #Програма робить правильно але тести ні
-# assert luckyticket(1230) is True
-# assert luckyticket(239017) is False
-# assert luckyticket(134008) is True
-# assert luckytickety(15) is False
-# assert luckyticket(2020) is True
-# assert luckyticket(199999) is False
-# assert luckyticket(77) is True
-# assert luckyticket(479974) is True
+assert luckyticket(str(1230)) is True
+assert luckyticket(str(239017)) is False
+assert luckyticket(str(134008)) is True
+assert luckyticket(str(15)) is False
+assert luckyticket(str(2020)) is True
+assert luckyticket(str(199999)) is False
+assert luckyticket(str(77)) is True
+assert luckyticket(str(479974)) is True
 
-# print("All tests passed successfully!")
+print("All tests passed successfully!")
 
 
 main()

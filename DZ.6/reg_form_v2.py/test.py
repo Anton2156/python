@@ -31,7 +31,12 @@ def main():
 
 def save_data(phone, email, password):
     with open(BASE_DIR / "users.txt", "a") as f:
-        print(f"{phone} {email} {password}", file=f)
+        # print(f"{phone} {email} {password}", file=f)
+        print(
+f"Phone: {phone}\n\
+Email: {email}\n\
+Password: {password}",file = f
+            )
 
 def save_error(Error):
     with open(ERROR_DIR / "Error.txt", "a") as f:
