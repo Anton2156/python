@@ -1,8 +1,8 @@
 # def main():
 #     sort_ascending()
 
-def sort_ascending(x):
-    my_list = [-1, -1, -1, -1, -1]
+def sort_ascending(my_list):
+    #my_list = [23, 54, -1, 43, 1, -1, -1, 77, -1, -1, -1, 3]
     edit_list = my_list[:]
     a = []
     i = 0

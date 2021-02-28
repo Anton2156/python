@@ -1,0 +1,13 @@
+{
+    "name": "Anton",
+    "games": 5,
+    "record": 1,
+    "attemps": 21,
+    "avg_attempts": 4.2
+}{
+    "name": "Max",
+    "games": 3,
+    "record": 3,
+    "attemps": 15,
+    "avg_attempts": 5.0
+}
