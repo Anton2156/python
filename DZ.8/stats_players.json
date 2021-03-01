@@ -1,0 +1,19 @@
+{
+    "name": "Anton",
+    "games": 1,
+    "record": 1,
+    "attemps": 1,
+    "avg_attempts": 1.0
+}{
+    "name": "Max",
+    "games": 1,
+    "record": 5,
+    "attemps": 5,
+    "avg_attempts": 5.0
+}{
+    "name": "Antobn",
+    "games": 2,
+    "record": 2,
+    "attemps": 4,
+    "avg_attempts": 2.0
+}

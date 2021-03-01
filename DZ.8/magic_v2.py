@@ -1,5 +1,7 @@
 import random
 import json
+from pathlib import Path
+STATS_PLAYERS = Path(__file__).resolve().parent
 
 def main():
     number_of_games = 0
@@ -8,8 +10,8 @@ def main():
 
 def magic(number_of_games,attempts):
     name = input("Введи своє ім'я:")
-    print("Вгадай число від 0 до 20")
-    limit = 20
+    print("Вгадай число від 0 до 5")
+    limit = 5
     random_number = random.randint(0,limit)
     i = 0
     new_rec = limit
@@ -47,6 +49,7 @@ def magic(number_of_games,attempts):
                 break
 
 def player_data(name,number_of_games,new_rec,avg_attempts,attempts):
+    stats_players = STATS_PLAYERS / "stats_players.json"
     player_data = {
         "name":name,
         "games":number_of_games,
@@ -59,11 +62,7 @@ def player_data(name,number_of_games,new_rec,avg_attempts,attempts):
     print("Твій рекорд :",new_rec,"")
     print("Твої всі спроби :",attempts,"")
     print("Твоє середню сначення спроб за гру :",avg_attempts,"")
-
-    with open("Stats_player.json", "a") as f:
+    with open(stats_players, "a") as f:
         data = json.dumps(player_data, indent=4)
         f.write(data)
-
-
-
 main()
