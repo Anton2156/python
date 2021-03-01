@@ -10,8 +10,8 @@ def main():
 
 def magic(number_of_games,attempts):
     name = input("Введи своє ім'я:")
-    print("Вгадай число від 0 до 5")
-    limit = 5
+    print("Вгадай число від 0 до 10")
+    limit = 10
     random_number = random.randint(0,limit)
     i = 0
     new_rec = limit

@@ -8,15 +8,7 @@ def main():
 
 
 def skates(available_sizes, foot_sizes):
-    a = 0
-    for i in available_sizes:
-        for j in foot_sizes:
-            print(i,j)
-            if j <= i:
-                a += 1
-                break
-    print(a)
-
+    pass
 
 
 

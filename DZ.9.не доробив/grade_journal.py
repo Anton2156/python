@@ -1,5 +1,8 @@
 def main():
-    a = int(input("\nВведіть кількість студентів: "))
+    try:
+        a = int(input("\nВведіть кількість студентів: "))
+    except ValueError:
+        main()
     i = 0
     student = []
     while i < a:
