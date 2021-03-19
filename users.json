@@ -1,0 +1,54 @@
+{
+    "New": {
+        "MyPoints": 1000,
+        "Magic": {
+            "Record": 0,
+            "Games": 0,
+            "Avg_attempts": 0
+        },
+        "Blackjack": {
+            "Win": 0,
+            "Lose": 0,
+            "Press stop": 0
+        }
+    },
+    "": {
+        "MyPoints": 0,
+        "Magic": {
+            "Record": 0,
+            "Games": 0,
+            "Avg_attempts": 0
+        },
+        "Blackjack": {
+            "Win": 0,
+            "Lose": 0,
+            "Press stop": 0
+        }
+    },
+    "qwe": {
+        "MyPoints": 2155,
+        "Magic": {
+            "Record": 0,
+            "Games": 0,
+            "Avg_attempts": 0
+        },
+        "Blackjack": {
+            "Win": 0,
+            "Lose": 0,
+            "Press stop": 0
+        }
+    },
+    "йцу": {
+        "MyPoints": 1000,
+        "Magic": {
+            "Record": 0,
+            "Games": 0,
+            "Avg_attempts": 0
+        },
+        "Blackjack": {
+            "Win": 0,
+            "Lose": 0,
+            "Press stop": 0
+        }
+    }
+}
